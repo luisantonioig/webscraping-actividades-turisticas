@@ -24,7 +24,7 @@ while " " in a:
 lista = lista + a
 
 #Obtenemos el texto de las etiquetas spam
-spam = tree.xpath("//a/text()")
+spam = tree.xpath("//spam/text()")
 while "\n" in spam:
   spam.remove("\n")
 while " " in spam:
