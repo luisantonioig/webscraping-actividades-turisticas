@@ -1,0 +1,16 @@
+<html>
+<head>
+ <title>Actividades en Sayulita</title>
+</head>
+<body>
+ {{ lugar }}<br>
+ 
+ {% for comentario in comentarios %}
+ {{ comentario }}<br>
+ {% endfor %}
+<br>
+ {% for actividad in actividades %}
+ {{ actividad }}<br>
+ {% endfor %}
+</body>
+</html>
